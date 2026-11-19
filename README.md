@@ -1,16 +1,16 @@
-# bsc_flutter_course
+# Flutter Basics
 
-A new Flutter project.
+A small Flutter example from undergraduate coursework. The app opens a single Material screen with a **Flutter Basics** app bar. It is a compact starting point for learning how an app is composed.
 
-## Getting Started
+## Explore the code
 
-This project is a starting point for a Flutter application.
+Start with [`lib/main.dart`](lib/main.dart). It defines the application theme, the home screen, and its `Scaffold`.
 
-A few resources to get you started if this is your first Flutter project:
+## Run locally
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This snapshot targets Dart 2.16.1 to below 3.0. Use a Flutter SDK that satisfies [`pubspec.yaml`](pubspec.yaml).
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter pub get
+flutter run
+```
